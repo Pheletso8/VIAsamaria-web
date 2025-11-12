@@ -3,7 +3,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 
 export default function Navbar() {  
   return (
-    <div>
+    <div className="sticky top-0 z-50 backdrop-blur-md bg-black/30 border-b border-gray-900/10">
         {/*Desktop navbar*/}
         <div className="justify-between items-center p-5 md:flex hidden px-8">
 
@@ -12,15 +12,15 @@ export default function Navbar() {
                 <PiChefHatFill className="bg-yellow-500 w-14 h-14 rounded-full p-2"/>
                 <div>
                     <h1 className="text-2xl font-bold">Via Samaria</h1>
-                    <p className="font-dancing-script font-bold text-xl text-white/70">Eatery & Bakery</p>
+                    <p className="font-dancing-script font-bold text-xl text-yellow-400">Eatery & Bakery</p>
                 </div>
             </div>
 
             {/*Navigation links*/}
             <div className="flex gap-4 font-semibold text-white text-lg">
-                <a href="#about" className=" hover:bg-yellow-500 rounded-full p-4 hover:text-black delay-150 ease-in text-white/70">About</a>
-                <a href="#gallery" className=" hover:bg-yellow-500 rounded-full p-4 hover:text-black delay-150 ease-in text-white/70">Gallery</a>
-                <a href="#contact" className=" hover:bg-yellow-500 rounded-full p-4 hover:text-black delay-150 ease-in text-white/70">Contact Us</a>
+                <a href="#about" className=" hover:bg-yellow-500 rounded-full p-2 hover:text-black text-yellow-400">About</a>
+                <a href="#gallery" className=" hover:bg-yellow-500 rounded-full p-2 hover:text-black text-yellow-400">Gallery</a>
+                <a href="#contact" className=" hover:bg-yellow-500 rounded-full p-2 hover:text-black text-yellow-400">Contact Us</a>
             </div>
 
             {/*Order button**/}
@@ -54,7 +54,7 @@ export default function Navbar() {
                 <PiChefHatFill className="bg-yellow-500 w-10 h-10 rounded-full p-2"/>
                 <div>
                     <h1 className="text-xl font-bold text-yellow-500">Via Samaria</h1>
-                    <p className="font-dancing-script font-bold text-xl text-white/70">Eatery & Bakery</p>
+                    <p className="font-dancing-script font-bold text-xl text-black">Eatery & Bakery</p>
                 </div>
             </div>
 
@@ -62,7 +62,7 @@ export default function Navbar() {
             {/*Order button**/}
             <div>
                 <button onClick={()=>document.getElementById('my_modal_2').showModal()}
-                className="flex gap-2 items-center bg-yellow-500 px-6 py-2 rounded-lg hover:bg-yellow-600 transition">
+                className="flex gap-1 items-center font-semibold bg-yellow-500 px-5 py-2 rounded-lg hover:bg-yellow-600 transition">
                     <IoLogoWhatsapp />
                     Order now
                 </button>
