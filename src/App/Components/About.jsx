@@ -2,10 +2,10 @@ import { FaHeart } from "react-icons/fa6";
 import { CiCoffeeCup } from "react-icons/ci";
 import { BiSolidCookie } from "react-icons/bi";
 import { FaBirthdayCake, FaHandHoldingHeart } from "react-icons/fa";
-import Card1 from "../Assets/Card1.jpg";
-import Card2 from "../Assets/Card2.jpg";
-import Card3 from "../Assets/Card3.jpg";
-import Card4 from "../Assets/Card4.jpg";
+import Card1 from "/Card1.jpg";
+import Card2 from "/Card2.jpg";
+import Card3 from "/Card3.jpg";
+import Card4 from "/Card4.jpg";
 
 export default function About() {
   const cards = [
