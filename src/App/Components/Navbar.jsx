@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div className="sticky top-0 z-50 backdrop-blur-md bg-black/30 border-b border-gray-900/10">
         {/*Desktop navbar*/}
-        <div className="justify-between items-center p-5 md:flex hidden px-8">
+        <div className="justify-between items-center p-5 md:flex hidden lg:px-40">
 
             {/* Logo and title*/}
             <div className="flex gap-4 items-center">
